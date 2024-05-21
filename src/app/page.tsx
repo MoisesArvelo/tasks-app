@@ -1,6 +1,5 @@
-const Home = () => {
-  
-  return <div>Tasks App</div>;
-};
+import { redirect } from "next/navigation";
 
-export default Home;
+export default function App() {
+  redirect("/api/auth/signin");
+}
