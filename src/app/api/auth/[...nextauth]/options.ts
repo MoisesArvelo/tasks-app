@@ -16,7 +16,7 @@ export const authOptions: NextAuthOptions = {
             issuer: process.env.COGNITO_ISSUER ?? '',
             wellKnown: `${process.env.COGNITO_ISSUER ?? ''}/.well-known/openid-configuration`,
             authorization: {
-                url: `https://tasks-app-auth.auth.us-east-1.amazoncognito.com/oauth2/authorize`,
+                url: `${process.env.COGNITO_DOMAIN_URL ?? ''}/oauth2/authorize`,
                 params: {
                 scope: 'openid email',
                 response_type: 'code',
