@@ -12,13 +12,20 @@
     "@types/qs": "^6.9.15",
     "aws-sdk": "^2.1624.0",
     "axios": "^1.7.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "capitalize": "^2.0.4",
     "next": "14.2.3",
     "next-auth": "^4.24.7",
     "qs": "^6.12.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "react-loader-spinner": "^6.1.6"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/capitalize": "^2.0.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

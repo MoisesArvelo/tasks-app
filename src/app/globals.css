@@ -1,3 +1,5 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,4 +12,3 @@ body {
   max-height: 100vh;
   overflow-x: hidden;
 }
-

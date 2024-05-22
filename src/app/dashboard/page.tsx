@@ -1,8 +1,13 @@
+import TaskComponent from "@/components/tasks";
+import NavComponent from "@/components/nav";
 
-const Dashboard = () => {
+const Dashboard = async () => {
   return (
-    <div>Dashboard</div>
-  )
-}
+    <div>
+      <NavComponent />
+      <TaskComponent />
+    </div>
+  );
+};
 
-export default Dashboard
+export default Dashboard;
